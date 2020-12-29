@@ -1,0 +1,25 @@
+name: popupmenu_focused_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # focused popup menu
+  focused_menu: ^1.0.2
+
+  # blurred background for single menu
+  flutter_blurhash: ^0.5.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
