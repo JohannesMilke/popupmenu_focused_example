@@ -17,7 +17,7 @@ class Utils {
       elevation: 0,
     );
 
-    ScaffoldMessenger.of(context)
+    Scaffold.of(context)
       ..hideCurrentSnackBar()
       ..showSnackBar(snackBar);
   }
